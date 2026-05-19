@@ -1,9 +1,6 @@
 {
-  "name": "@workspace/scripts",
-  "scripts": {
-    "bot": "tsx ./src/discord-bot.ts"
-  },
-  "dependencies": {
-    "discord.js": "^14.26.4"
-  }
+  "name": "bot",
+  "type": "module",
+  "scripts": { "start": "node bot.js" },
+  "dependencies": { "discord.js": "^14.19.3" }
 }
